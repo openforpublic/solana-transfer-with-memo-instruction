@@ -52,7 +52,7 @@ export async function POST(request) {
     return NextResponse.json(userSPLToken);
   } catch (error) {
     console.error('Error fetching token accounts:', error);
-    return NextResponse.json({ error: 'Failed to fetch token accounts' }, { status: 500 });
+    return NextResponse.json({ error: 'Failed to fetch token accounts ' + error }, { status: 500 });
   }
 }
 
