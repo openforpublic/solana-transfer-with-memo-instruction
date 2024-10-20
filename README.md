@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Open For Public
+
+Open For Public is a platform dedicated to building tools for organizational transparency. Our mission is to provide easy-to-use solutions that enhance transparency and accountability in various organizations.
+
+## Features
+
+- **Solana Transaction with Memo**: Create Solana transactions with custom memos for enhanced transparency.
+- More tools coming soon!
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/open-for-public.git
+   cd open-for-public
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+   - Copy the `.env.sample` file to a new file named `.env.local`:
+     ```bash
+     cp .env.sample .env.local
+     ```
+   - Open `.env.local` and fill in the value for `HELIUS_API_KEY` with your actual Helius API key.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Learn More
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org/) - React framework for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+We welcome contributions to Open For Public! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+For any questions or feedback, please reach out to us at [openforpublic@terrydjony.com](mailto:openforpublic@terrydjony.com).
+
+## Acknowledgements
+
+- Thanks to all contributors who have helped build Open For Public
+- Special thanks to the Solana community for their support and resources
+
+---
+
+Built with ❤️ for transparency
