@@ -22,3 +22,5 @@ export async function POST(request) {
     return NextResponse.json({ error: 'Failed to send transaction' }, { status: 500 });
   }
 }
+
+export const runtime = 'edge';
